@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package blocksDesign;
 
 /**
@@ -10,5 +6,9 @@ package blocksDesign;
  * @author Alumno
  */
 public class blocksModel {
-    
+    public void main(String args[]){
+        block_creator.get_block("Golden Block")
+        block_creator.get_block("Silver Block")
+        block_creator.get_block("Bronce Block")
+    }   
 }
