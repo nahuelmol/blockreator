@@ -1,5 +1,6 @@
-
 package blocksDesign;
+
+import blockDesign.Block_Factory
 
 /**
  *
@@ -7,8 +8,8 @@ package blocksDesign;
  */
 public class blocksModel {
     public void main(String args[]){
-        block_creator.get_block("Golden Block")
-        block_creator.get_block("Silver Block")
-        block_creator.get_block("Bronce Block")
+        Block_Factory.get_block("Golden Block")
+        Block_Factory.get_block("Silver Block")
+        Block_Factory.get_block("Bronce Block")
     }   
 }
